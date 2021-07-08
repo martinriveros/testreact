@@ -1,11 +1,13 @@
 import React from 'react'
-import logo from './cart.jpg';
+import logo from './achmed.jpg';
+import { CartWidget } from './cartWidget.js';
 
 
-function NavBar (){
+export function NavBar (){
   return <>
     <div className='logo-container'>
       <img src={logo} alt="" id='logo-nav'></img>
+      <CartWidget/>
     </div>
     <div className='nav-container'>
       <ul className="nav-list">
@@ -17,5 +19,4 @@ function NavBar (){
     </div>
   </>
   
-}
-export default NavBar;
+};
