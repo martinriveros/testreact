@@ -10,9 +10,9 @@ function App() {
         <NavBar/>
       </header>
       <main className='silence'>
-        <Greetings 
-                  text1="SILENCE!!"
-                  text2="I kill you!"
+        <Greetings
+              text1="SILENCE!"
+              text2="I kill you!"
         />
       </main>
     </div>
