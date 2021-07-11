@@ -17,10 +17,9 @@ export const ItemCount = () => {
         setCart(cart+=1);
         setStock(stock-=1);
         setVisibilitySub({visibility:'visible'})
-        data[0].stock-=1
-
-        
-        if(data[0].stock===0)
+        data[1].stock-=1
+          
+        if(data[1].stock===0)
           {setVisibilityAdd({visibility:'hidden'})}
         
         }}  
@@ -31,7 +30,7 @@ export const ItemCount = () => {
         setCart(cart-=1);
         setStock(stock+=1);
         setVisibilityAdd({visibility:'visible'})
-        data[0].stock+=1       
+        data[1].stock+=1       
         
         if(cart===0)
           {setVisibilitySub({visibility:'hidden'})}
