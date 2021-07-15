@@ -3,6 +3,7 @@ import './App.css';
 import {NavBar} from './components/navBar/navBar'
 import {Greetings} from './components/navBar/itemListContainer'
 import {ItemCount} from  './components/contador'
+import {GetData} from './components/ajax'
 
 function App() {
   return <>
@@ -16,6 +17,7 @@ function App() {
               text2="I kill you!"
         />
         <ItemCount/>
+        <GetData/>
       </main>
     </div>
   </>;

@@ -71,3 +71,24 @@ a:active {
 .logo-container {
   width: auto;
 }
+
+.cardContainer {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  padding: 2em 1em;
+  column-gap: 2em;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  width: 250px;
+}
+
+.imgThumb {
+  height: 50px;
+  width: 50px;
+}
